@@ -65,3 +65,6 @@ hi SignColumn guibg=#FFFFFF
 
 " Status line
 hi StatusLine guibg=#FFFFFF guifg=#000000
+
+" Ruby
+hi rubyInstanceVariable guifg=#0000FF
