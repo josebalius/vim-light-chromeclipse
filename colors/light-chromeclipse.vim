@@ -30,12 +30,11 @@ highlight Boolean guifg=#000080
 highlight Function guifg=#0000C0
 highlight FunctionDef guifg=#000000
 highlight Identifier guifg=#000000 
-highlight Keyword guifg=#7F0055
+highlight Keyword guifg=#7F0055 gui=bold cterm=bold
 highlight Define guifg=#7F0055
 highlight PreProc guifg=#0000FF
 highlight Constant guifg=#7F0055
 highlight Type guifg=#000000 gui=bold cterm=bold
-hi clear Statement
 highlight Statement guifg=#7F0055
 highlight Special guifg=#0000FF
 highlight Operator guifg=#000000
@@ -66,6 +65,10 @@ hi SignColumn guibg=#FFFFFF
 
 " Status line
 hi StatusLine guibg=#FFFFFF guifg=#000000
+
+" Go
+hi def link goBuiltins Type
+hi def link goFunction Type
 
 " Ruby
 hi rubyInstanceVariable guifg=#0000FF
