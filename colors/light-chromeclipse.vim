@@ -35,6 +35,7 @@ highlight Define guifg=#7F0055
 highlight PreProc guifg=#0000FF
 highlight Constant guifg=#7F0055
 highlight Type guifg=#000000 gui=bold cterm=bold
+hi clear Statement
 highlight Statement guifg=#7F0055
 highlight Special guifg=#0000FF
 highlight Operator guifg=#000000
