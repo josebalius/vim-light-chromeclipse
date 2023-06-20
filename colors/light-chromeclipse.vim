@@ -1,7 +1,6 @@
 " light_chromeclipse.vim
 " Maintainer: josebalius
 " Version: 1.0
-" Last Modified: 2023-06-18
 
 set background=light
 hi clear
@@ -34,7 +33,7 @@ highlight Keyword guifg=#7F0055 gui=bold cterm=bold
 highlight Define guifg=#7F0055
 highlight PreProc guifg=#0000FF
 highlight Constant guifg=#7F0055
-highlight Type guifg=#000000 gui=bold cterm=bold
+highlight Type guifg=#000000 
 highlight Statement guifg=#7F0055
 highlight Special guifg=#0000FF
 highlight Operator guifg=#000000
@@ -68,7 +67,7 @@ hi StatusLine guibg=#FFFFFF guifg=#000000
 
 " Go
 hi def link goBuiltins Type
-hi def link goFunction Type
+hi goFunction guifg=#000000 gui=bold cterm=bold 
 
 " Ruby
 hi rubyInstanceVariable guifg=#0000FF
